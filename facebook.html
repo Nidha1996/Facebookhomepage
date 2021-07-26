@@ -1,0 +1,223 @@
+<html>
+<head>
+<style>
+/* T define the body structure */	
+	body{
+	margin:-14px;
+	}
+/* to display whole heading  */
+ 	div.head{
+	display:inline-block;
+	color:white;
+	}
+/* To display the heading facebook */
+	#face{
+	width:40%;
+	color:white;
+	margin-left:50px; 
+	font-size:32px;
+	}
+/* To display email */
+	#email{
+	width:20%;
+	margin-top:15px;
+	}
+*/ To display password */
+	#password{
+	width:20%;
+	}
+/* To display login button */
+	#login{
+	width:10%;
+	float:right;
+	margin-top:36px;
+	margin-right:95px;	}
+/*To give the structure of body */
+	div.bod{
+	display:inline-block;
+	font-size:25px;
+	color:navy;
+	margin-left:50px;
+	margin-right:60px;
+	}
+/*To give defintion of facebook */
+	#deta{
+	padding:1px;
+	width:50%;
+	text-indent:5px;
+	}
+/* about input cells */
+ 	input[type=text],input[type=password],input[type=email],select{
+	padding:8px;
+	border-radius:5px;
+	border:1px solid black;
+	}
+
+      a:link{
+	color:white;
+	}
+a:visited{
+	color:white;
+	}		
+	a:hover{
+	color:red;
+	}
+	input:hover{
+	color:#3b5998;		
+	}
+/* footer details */
+	.footer{
+	background-color:#B0C4DE;
+	text-align:center;
+	font-size:13px;
+	font-color:black;	
+	}
+     .content{
+	margin:-14px;
+	}	
+</style>
+</head>
+
+<body>
+<div class="heading" style="background-color:#3b5998">
+   <form name="form1">
+   	<div class="head" id="face">
+	<h3>Facebook</h3>
+	</div>
+	<div class="head" id="email">
+	
+	<label>Email</label><br>
+	<input type="email" name="email" required><br>
+	<input type="checkbox">Keep me logged in
+	</div>
+	<div class="head" id="password" >
+	<label>Password</label><br>
+	<input type="password" name="password" required><br>
+	<a href="" style="font-size:14px;text-decoration:none;">Forget Password</a>
+	</div>
+	<div class="head" id="login" >
+	<input type="submit" name="login" value="login" style="background-color:green;padding:6px">
+	</div>
+     </form>
+</div>
+
+<div class="content" style="background-color:#B0C4DE">
+	<div class="bod" id="deta">
+	<p><b><i>Facebook helps you connect and share with <br> the people in your life.</i></b></p>
+	<img src="faccon.jpg" style="width:600px;margin-bottom:40px">
+	</div>
+	<div class="bod" id="form" style="float:right">
+	<h1 style="font-size:35px">Sign Up</h1>
+	<h3 style="font-size:20px">It's free and anyone can use join</h3>
+	<hr></hr>
+<form name="form2">
+     	<table>	
+	   
+	   	<tr>
+	    		<td><label id="label" >First Name:</label></td>
+	    		<td><input type="text" name="fname" required></td>
+	       	</tr>
+	        <tr>
+	   		<td><label id="label">Last Name:</label></td>
+	    		<td><input type="text" name="lname"required></td>
+	       	</tr>
+	        <tr>
+	    		<td><label id="label">Your Email:</label></td>
+	    		<td><input type="email" name="nemail" required></td>
+	    	</tr>
+		<tr>
+	    		<td><label id="label">Re-enter Email:</label></td>
+	    		<td><input type="email" name="Reemail" required></td>
+	    	</tr>
+		 <tr>
+	   		<td><label id="label">New Password:</label></td>
+	  		<td><input type="password" name="pass" required ></td>
+		</tr>
+		<tr>
+	   		<td><label id="label">I am:</label></td>
+	   		<td><select required>
+	 		      	<option>----Select Sex----</option>	
+	    			<option value="Male">Male</option>
+				<option value="Female">Female</option>
+				<option value="Others">Others</option>
+	   		</select></td>
+		<tr>
+	   	</tr>	
+			<td><label id="label">Birthday:</label></td>
+	    		<td><select>
+	 			<option>Month</option>	
+	    			<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option value="June">June</option>
+				<option value="July">July</option>
+				<option value="August">August</option>
+				<option value="September">September</option>
+				<option value="October">October</option>
+				<option value="November">November</option>
+				<option value="December">December</option>
+	   		</select>
+	    		<select>
+	 			<option>Day</option>	
+	    			<option value="Monday">Monday</option>
+				<option value="Tuesday">Tuesday</option>
+				<option value="Wednesday">Wednesday</option>
+				<option value="Thursday">Thursday</option>
+				<option value="Friday">Friday</option>
+				<option value="Saturday">Saturday</option>
+				<option value="Sunday">Sunday</option>
+	  		 </select>
+	    		 <select>
+	 			<option>Year</option>	
+	    			<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+  				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+	   		</select></td>
+		</tr>
+		<tr>
+	     		<td colspan="2"><center><a href="" style="font-size:14px;text-decoration:none">why do I need to provide my birthday</a></center></td>
+		</tr>
+		<tr>
+	  		<td colspan="2"><center><input type="submit" name="login" value="Sign Up" style="background-color:green;padding:6px"><center></td>
+	  	</tr>
+	</table>
+</form>
+	<hr></hr>
+	<p class="footer"><i>Copyright@2021</i></p>
+     </div>
+	
+</div>
+</body>
+</html>
